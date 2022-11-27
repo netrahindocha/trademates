@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  background-color: black;
+}
+
+.App{
+  background-color: white;
+  height: fit-content;
+  margin: 3em;
+  border-radius: 0.2em;
+}
+
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.flexCol{
+  display: flex;
+  flex-direction: column;
+}

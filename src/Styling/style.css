@@ -1,0 +1,109 @@
+/* SIDENAV SECTION */
+
+.sideNav{
+    background-color: rgb(247, 247, 247);
+    width: 18%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trademates i{
+    font-size: 1.5em;
+    padding-right: 0.3em;
+}
+
+.trademates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 1em 0em;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid rgb(165, 165, 165);
+    justify-content: center;
+}
+
+.navlist ul{
+    padding: 2em 1em;
+}
+
+.navlist ul li{
+    /* border: 1px solid black; */
+    list-style: none;
+    text-align: left;
+    margin-bottom: 1.5em;
+}
+
+.navlist ul li .fa-wallet, .navlist ul li .fa-newspaper{
+    font-size: 1.2em;
+}
+
+.navlist ul li .fa-square-poll-vertical{
+    font-size: 1.4em;
+}
+
+.navlist ul li .fa-cubes{
+    font-size: 1.1em;
+}
+
+.navlist ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.2em 1em;
+    border-radius: 0.3em;
+}
+
+.navlist ul li a:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.paraBox{
+    border-bottom: 2px solid grey;
+    margin: 2em;
+}
+
+.paraBox img{
+    width: 50px;
+    position: relative;
+    top: 60px;
+}
+
+.tradingTips{
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    padding: 2.5em 0.5em 1.5em 0.5em;
+    margin: 2em 0em;
+}
+
+.tradingTips h4{
+    margin: 0;
+}
+
+
+/* TOPBAR SECTION */
+
+.topBar{
+    width: 85%;
+}
+
+/* UTILITIES */
+
+.flexRow{
+    display: flex;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}

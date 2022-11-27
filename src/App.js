@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import SideNav from './Components/SideNav';
+import TopBar from './Components/TopBar';
 
 function App() {
   return (
     <div className="App">
-      <SideNav />
+      <div className="flexRow">
+        <SideNav />
+        <TopBar />
+      </div>
     </div>
   );
 }
